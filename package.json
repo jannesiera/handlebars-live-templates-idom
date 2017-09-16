@@ -1,0 +1,34 @@
+{
+  "name": "handlebars-live-templates-idom",
+  "version": "0.0.0",
+  "description": "Compiles handlebars templates to idom render functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jannesiera/handlebars-live-templates-idom.git"
+  },
+  "keywords": [
+    "handlebars",
+    "live",
+    "templates",
+    "incremental",
+    "dom",
+    "idom",
+    "compiler"
+  ],
+  "author": "Janne Siera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jannesiera/handlebars-live-templates-idom/issues"
+  },
+  "homepage": "https://github.com/jannesiera/handlebars-live-templates-idom#readme",
+  "dependencies": {
+    "parse5": "^3.0.2",
+    "handlebars-live-templates-ast": "^0.0.0",
+    "handlebars-live-templates-generator-idom": "^0.0.0",
+    "js-beautify": "^1.6.14"
+  }
+}
