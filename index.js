@@ -5,7 +5,7 @@ const fs = require('fs');
 const beautify = require('js-beautify').js_beautify;
 
 var compile = (source, target) => {
-    fs.readFile(source, 'ASCII', function (error, templateString) {
+    fs.readFile(source, function (error, templateString) {
         if (error) return console.log(error);
 
         const documentFragment = parse5.parseFragment(templateString, {treeAdapter: adapter});
