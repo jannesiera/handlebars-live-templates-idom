@@ -1,6 +1,6 @@
 {
   "name": "handlebars-live-templates-idom",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Compiles handlebars templates to idom render functions.",
   "main": "index.js",
   "scripts": {
